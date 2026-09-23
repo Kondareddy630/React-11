@@ -1,12 +1,12 @@
+import Nonprimitive from "./components/Nonprimitive";
 import Primitive from "./components/Primitive";
 
 function App()
 {
 
 
-//Primitive Datatypes
 
-// number
+
 
 
  
@@ -15,8 +15,8 @@ function App()
 return(
 <div>
 
-<Primitive></Primitive>
 
+<Nonprimitive></Nonprimitive>
 
 
 </div>
