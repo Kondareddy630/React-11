@@ -1,6 +1,7 @@
 import Nonprimitive from "./components/Nonprimitive";
 import Primitive from "./components/Primitive";
 
+
 function App()
 {
 
@@ -13,11 +14,10 @@ function App()
 
 
 return(
-<div>
+<div className="container mt-4">
 
 
 <Nonprimitive></Nonprimitive>
-
 
 </div>
 
