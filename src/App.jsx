@@ -1,28 +1,21 @@
-import Nonprimitive from "./components/Nonprimitive";
-import Primitive from "./components/Primitive";
+import React, { useState } from 'react'
+import Listrender from './components/Listrender'
+
+function App() {
 
 
-function App()
-{
-
-
-
+  
 
 
 
- 
+  return (
+    <div className='container mt-5'>
 
 
-return(
-<div className="container mt-4">
+<Listrender></Listrender>
 
-
-<Nonprimitive></Nonprimitive>
-
-</div>
-
-)
-
+    </div>
+  )
 }
 
-export default App;
+export default App
