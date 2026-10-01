@@ -1,45 +1,12 @@
-import React, { createContext, useState } from 'react'
-import A from './components/A'
-import Hello from './components/Hello';
-
-export const mycontext=createContext();// memory
-
+import React from 'react'
+import Userapp from './components/Userapp'
 
 function App() {
 
-  const[emp,setEmp]=useState({
-    empno:101,
-    name:"hello",
-    job:"manager",
-    sal:5000
-  })
-
-
-  const[username,setUsername]=useState("Kondareddy");
-
   return (
-    <div className='container mt-5'>App
+    <div className='container mt-5'>
 
-    <pre>
-      {
-        JSON.stringify(emp)
-      }
-    </pre>
-
-
-
-    <mycontext.Provider value={username}>
-         <A myemp={emp}></A>
-    </mycontext.Provider>
-
-
-<Hello>
-   <h2>Heading</h2>
-   <p>para</p>
-  <a href=''>Facebook</a>
-</Hello>
-
-
+<Userapp></Userapp>
 
     </div>
   )
