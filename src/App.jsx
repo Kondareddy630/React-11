@@ -2,6 +2,7 @@ import React from 'react'
 import Userapp from './components/Userapp'
 import Axios from './components/Axios'
 import Style from './components/Style'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -11,8 +12,7 @@ function App() {
 
 
 
-<Style></Style>
-
+<Counter></Counter>
     </div>
   )
 }
