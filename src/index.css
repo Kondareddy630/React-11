@@ -1,3 +1,16 @@
 body{
     margin-bottom: 500px !important;
 }
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-green{
+    color:green
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
