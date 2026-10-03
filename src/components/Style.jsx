@@ -7,7 +7,7 @@ const[hello,setHello]=useState({
     textAlign:"center",
     boxShadow:"4px 4px 4px black",
     backgroundColor:"lightgreen",
-    borderRadius:"10px",
+    borderRadius:"20px",
     padding:"20px"
 })
 
