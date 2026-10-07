@@ -5,6 +5,8 @@ import Style from './components/Style'
 import Counter from './components/Counter'
 import Change from './components/Change'
 import Login from './components/Login'
+import Search from './components/Search'
+import Mouse from './components/Mouse'
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
   return (
     <div className='container mt-5'>
 
-<Login></Login>
+<Mouse></Mouse>
 
 
 

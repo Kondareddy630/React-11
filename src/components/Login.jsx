@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { use, useState } from 'react'
 
 function Login() {
+
+    const[city,setCity]=useState("");
 
 
     const[login,setLogin]=useState({
@@ -35,6 +37,18 @@ function Login() {
 
   return (
     <div>
+
+<pre>
+    {JSON.stringify(city)}
+</pre>
+
+        <select value={city} onChange={(e)=>setCity(e.target.value)}>
+            <option>hyd</option>
+            <option>pune</option>
+            <option>delhi</option>
+        </select>
+
+        <p>You selected {city}</p>
 
         <pre>
             {
